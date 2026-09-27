@@ -1,5 +1,11 @@
 # Navigation and Positioning Robot
 
+## 中文项目概览
+
+这是一个面向室外移动机器人的建图、定位与巡检导航软件项目，使用 Livox Mid-360、ROS 2、FAST-LIO2、RTK 和 Nav2 构建从数据采集到多点巡检的完整软件流程。
+
+招聘方可先阅读：[中文项目首页](PROJECT_OVERVIEW_CN.md)。
+
 ROS 2 Humble robot-side source snapshot for Livox Mid-360 acquisition, FAST-LIO2 offline mapping, PCD-to-2D-map conversion, and site-based Nav2 workflow helpers.
 
 This repository is a public, privacy-reviewed export made from a working robot. It is not a complete plug-and-play image: hardware-specific calibration, network settings, GNSS/NTRIP credentials, field maps, semantic places, and recorded bags are intentionally excluded.
