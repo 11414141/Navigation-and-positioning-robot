@@ -1,0 +1,35 @@
+/livox/lidar:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 20
+/livox/lidar_points:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 20
+/livox/lidar_points_nav:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 20
+/livox/lidar_points_glim:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 20
+/scan:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 20
+/livox/imu:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 200
+/imu/data_raw:
+  reliability: best_effort
+  durability: volatile
+  history: keep_last
+  depth: 200

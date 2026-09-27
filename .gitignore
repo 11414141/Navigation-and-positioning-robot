@@ -1,0 +1,34 @@
+# ROS build outputs and runtime data
+build/
+install/
+log/
+**/__pycache__/
+*.py[cod]
+*.bag
+*.db3
+*.mcap
+*.pcd
+*.pgm
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Site-specific maps, semantic places, recorded trajectories, and backups
+field_sites/
+bags/
+maps/
+semantic_map/
+scripts/rtk_tools/backups/
+scripts/rtk_tools/wheeltec_ros2_modification_log_fallback.txt
+
+# Private GNSS/NTRIP setup: supply locally, never commit it.
+**/*private*.launch.py
+**/*credential*
+**/*secret*
+**/*token*
+**/*password*
+**/*passwd*
+workspace/livox_ros_driver2/config/MID360_config.json
+workspace/livox_ros_driver2/config/HAP_config.json
+workspace/livox_ros_driver2/config/mixed_HAP_MID360_config.json
